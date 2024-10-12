@@ -5,7 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/grey"
+    >
 
     <!-- Guidelines -->
     <androidx.constraintlayout.widget.Guideline
@@ -25,6 +27,7 @@
 
     <!-- Imagen -->
     <ImageView
+
         android:id="@+id/imagen"
         android:contentDescription="@string/imagen_receta"
         android:src="@drawable/imagen1"
@@ -118,7 +121,7 @@
         android:layout_height="264dp"
         android:layout_marginTop="8dp"
         android:text="@string/contenido_Ingredientes"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/ingredientes"
         app:layout_constraintStart_toStartOf="@id/ingredientes"
